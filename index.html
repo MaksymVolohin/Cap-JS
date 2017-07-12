@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/calc.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+
+    
+    <div class="calendar"></div>
+    <div class="calculator">
+        <p id="lastResult"></p>
+        <p id="finalResult"></p>
+        <div class="calc-controls">
+            <div class="numbers">
+                <button id="seven" value="7" onclick="element(this.id)">7</button>
+                <button id="eight" value="8" onclick="element(this.id)">8</button>
+                <button id="nine" value="9" onclick="element(this.id)">9</button>
+                <br>
+                <button id="four" value="4" onclick="element(this.id)">4</button>
+                <button id="five" value="5" onclick="element(this.id)">5</button>
+                <button id="six" value="6" onclick="element(this.id)">6</button>
+                <br>
+                <button id="one" value="1" onclick="element(this.id)">1</button>
+                <button id="two" value="2" onclick="element(this.id)">2</button>
+                <button id="three" value="3" onclick="element(this.id)">3</button>
+                <br>
+                <button id="zero" value="0" onclick="element(this.id)">0</button>
+                <button id="dot" value="." onclick="element(this.id)">.</button>
+            </div>
+            <div class="signs">
+                <button id="divide" value="/" onclick="element(this.id)">/</button>
+                <button id="reset" value="C" onclick="element(this.id)">C</button><br>
+                <button id="multiply" value="*" onclick="element(this.id)">*</button>
+                <button id="backspase" value="<" onclick="element(this.id)"><</button><br>
+                <button id="minus" value="-" onclick="element(this.id)">-</button>
+                <button id="plus" value="+" onclick="element(this.id)">+</button><br>
+                <button id="result" value="=" onclick="element(this.id)">=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/calc.js"></script>
+    <script src="js/calendar.js"></script>
+</body>
+</html>

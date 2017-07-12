@@ -1,0 +1,2 @@
+.navbar{opacity:0.5;position:fixed;top:48%;width:50px;height:39px;background-color:#e5e7d1;display:flex;flex-direction:column;justify-content:space-around;align-items:center;border-radius:0 25px 25px 0;transition:0.2s;z-index:6}.navbar .go-back{background-image:url("../img/go-back.png");width:21px;height:33px}.navbar .git{display:none;background-image:url("../img/git.png");width:46px;height:46px}.navbar:hover{opacity:1;height:100px;transition:0.2s}.navbar:hover .git{display:block}
+/*# sourceMappingURL=navbar.css.map */
